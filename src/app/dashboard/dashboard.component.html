@@ -1,0 +1,46 @@
+<h1 class="text-center text-primary">Hello {{username}}</h1>
+
+
+<div style="width:100%; height:100vh" class="d-flex justify-content-center align-items-center">
+  <!-- <div class="row "> -->
+      <!-- <div class="col-lg-2"></div> -->
+      <div class="col-lg-8 bg-dark shadow p-5 rounded">
+          <!-- <div class="row align-items-center"> -->
+              <!-- <div class="col-lg-6"> -->
+              <!-- </div> -->
+              <!-- <div class="col-lg-6 p-5"> -->
+                  <!-- <div class="d-flex mb-2">
+                      
+                      <h2 class="text-light text-center"></h2>
+                  </div> -->
+                 <form >
+                      <div class="form-floating mb-3">
+                          <input  type="text" class="form-control" id="floatingInput" placeholder="Firstname" name="fName" [(ngModel)]="fName">
+                          <label for="floatingInput">Firstname</label>
+                        </div>
+                        <div class="form-floating  mb-3">
+                          <input  type="password" class="form-control" id="floatingPassword" placeholder="lastName" name="lName" [(ngModel)]="lName">
+                          <label for="floatingPassword">lastName</label>
+                        </div>
+                        <div class="form-floating  mb-3">
+                          <input  type="text" class="form-control" id="floatingDesignation" placeholder="Designation" name="desg" [(ngModel)]="desg">
+                          <label for="floatingDesignation">Designation</label>
+                        </div>
+                        <div class="form-floating  mb-3">
+                          <input  type="text" class="form-control" id="floatingAge" placeholder="Age" name="age" [(ngModel)]="age">
+                          <label for="floatingAge">Age</label>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                         <button (click)="update()" class="btn btn-primary me-5">Update</button>
+                        </div>
+                 </form>
+              </div>
+  
+          <!-- </div>
+      </div> -->
+      <!-- <div class="col-lg-2">
+
+      </div> -->
+  <!-- </div> -->
+  
+</div>
